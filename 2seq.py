@@ -20,7 +20,8 @@ print(teSep_s, tTskMsg_s, f'{sys.version=}', teSep_s, 'Result:', '',  sep='\n')
 tRes_l = list(teInPWTypedWVali_fif(f' любые цифры через запятую',
     laInPType_cll=lambda _s: tCreTIfAllElIsDig_fef(_s, tGetIsValiSep_fef(_s)))[0])
 
-print('Raw:', tRes_l)
-print('Uniq:', list(set(tRes_l)))
+print('Raw:\t\t', tRes_l)
+print('Uniq:\t\t', list(set(tRes_l)))
+print('Uniq&Stabl:\t', list(dict.fromkeys(tRes_l)))
 
 print(teSep_s)

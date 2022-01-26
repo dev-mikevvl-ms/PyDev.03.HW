@@ -1,3 +1,4 @@
+# Mod:hw_02.py
 
 def tGetIsValiSep_fef(laTs_s, laSep_t=(',', ';', '/')):
   # if not isinstance(laTs_s, str):
