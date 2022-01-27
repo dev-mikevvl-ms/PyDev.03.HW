@@ -19,6 +19,7 @@ print(teSep_s, tTskMsg_s, f'{sys.version=}', teSep_s, 'Result:', '',  sep='\n')
 
 tRes_l = list(teInPWTypedWVali_fif(f' любые цифры через запятую',
     laInPType_cll=lambda _s: tCreTIfAllElIsDig_fef(_s, tGetIsValiSep_fef(_s)))[0])
+# 9,2,3,4,5,5,6,5,3,9
 
 print('Raw:\t\t', tRes_l)
 print('Uniq:\t\t', list(set(tRes_l)))
